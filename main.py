@@ -4,8 +4,6 @@ import asyncio
 import random
 from datetime import datetime
 
-scheduler = AsyncIOScheduler()
-
 bot = Bot("Tokem")
 dp = Dispatcher(bot)
 
